@@ -6,10 +6,10 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('/cadastroloja', function () {
-    return view('/cadastroloja');
+    return view('cadastroloja');
 });
 Route::get('/logincliente', function () {
-    return view('/logincliente');
+    return view('logincliente');
 });
 
 
